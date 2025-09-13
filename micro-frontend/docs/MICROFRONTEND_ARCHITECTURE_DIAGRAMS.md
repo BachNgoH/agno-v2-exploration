@@ -1,5 +1,8 @@
 # Microfrontend Architecture Diagrams (2025)
 
+## 🚨 **IMPORTANT: Next.js NOT Recommended**
+These diagrams show general microfrontend patterns. **Avoid Next.js + Module Federation** - use Modern.js, Rsbuild, or other alternatives instead.
+
 ## 1. Overall Microfrontend Architecture Pattern
 
 ```mermaid

@@ -4,6 +4,8 @@ from agno.os import AgentOS
 from dotenv import load_dotenv
 from agno.tools.hackernews import HackerNewsTools
 from agno.tools.reasoning import ReasoningTools
+
+from stock_agent import team as stock_team
 load_dotenv()
 
 PROMPT = """
@@ -24,6 +26,7 @@ agent_os = AgentOS(
     os_id="my-first-os",
     description="My first AgentOS",
     agents=[assistant],
+    teams=[stock_team],
 )
 
 app = agent_os.get_app()
